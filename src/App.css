@@ -7,6 +7,42 @@
   pointer-events: none;
 }
 
+.logo {
+  height: 100px;
+  width: 200px;
+}
+
+.container {
+  position: relative;
+}
+
+.nav-bg {
+  background-color: rgba(255, 255, 0, 0);
+}
+
+.nav-bg::after {
+  z-index: 9999;
+  content: "";
+  display: block;
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 100%;
+  width: 100%; /* set to 100% for full overlay width */
+  background: rgba(255, 255, 255, 0.3);
+}
+
+
+.img {
+  display: block;
+  width: 100%;
+}
+
+.nav-bg {
+  background-color: yellow;
+  z-index: 2;
+}
+
 @media (prefers-reduced-motion: no-preference) {
   .App-logo {
     animation: App-logo-spin infinite 20s linear;
