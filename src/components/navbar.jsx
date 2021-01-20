@@ -13,9 +13,14 @@ export default function Navbar() {
 
   const showSidebar = () => setSidebar(!sidebar);
 
+
+
   return (
     <>
-        <header>
+        <header className='header'>
+        <div className='hmu-title'>
+          <h1>Helicopter Maintenance Unlimited</h1>
+        </div>
           <img src='hmu-logo.png' className='logo' alt="logo"></img>
         </header>
         <div className="nav-bar">
@@ -42,6 +47,7 @@ export default function Navbar() {
             })}
           </ul>
         </nav>
+        <div className={sidebar ? 'overlay' : 'overlay hidden'}></div>
     </>
   );
 }

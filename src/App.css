@@ -1,8 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Lato&display=swap');
 
-body {
-  background-image: url('./body-bg.jpg');
-}
 
 * {
   box-sizing: border-box;
@@ -13,8 +10,52 @@ body {
 
  .home, .sales, .courses {
    display: flex;
-    height: 90vh;
-    align-items: center;
+    height: 100vh;
     justify-content: center;
     font-size: 3rem;
+    color: white;
  }
+
+ .home {
+   background: url('home-bg.png') center no-repeat;
+   background-size: cover;
+ }
+
+ .title {
+   position: relative;
+   top: 20%;
+   text-align: center;
+ }
+
+ .content-text {
+   position: relative;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   font-size: medium;
+   width: 40%;
+   top: 25%;
+   left: 30%;
+   text-align: center;
+   line-height: 3rem;
+ }
+
+ /* .home::before {
+   content: '';
+   position: absolute;
+   top: 0;
+   left: 0;
+   bottom: 0;
+   right: 0;
+   z-index: 1;
+   background: rgba(0, 0, 0, .4);
+ } */
+
+ /* .overlay {
+   position: absolute;
+   top: 0;
+   background-color: rgba(0, 0, 0, 0.564);
+   height: 100vh;
+   width: 100vw;
+   z-index: -1;
+ } */
