@@ -40,6 +40,11 @@
    line-height: 3rem;
  }
 
+ .down-btn {
+   position: relative;
+   top: 100px;
+ }
+
  /* .home::before {
    content: '';
    position: absolute;

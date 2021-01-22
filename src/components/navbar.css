@@ -92,9 +92,9 @@ span {
 }
 
 .logo {
-  position: absolute;
-  height: 100px;
-  width: 200px;
+  position: relative;
+  height: 70px;
+  width: 150px;
 }
 
 .header {
