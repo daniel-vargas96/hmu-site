@@ -1,4 +1,5 @@
 import Navbar from "./components/navbar";
+import Footer from './components/footer';
 import './App.css';
 import React from 'react';
 import { BrowserRouter as Router, Switch, Route } from 'react-router-dom';
@@ -25,7 +26,9 @@ export default class App extends React.Component {
             <Route path='/sales' component={Sales} />
             <Route path='/courses' component={Courses} />
           </Switch>
+          <Footer />
         </Router>
+
 
       </>
     );

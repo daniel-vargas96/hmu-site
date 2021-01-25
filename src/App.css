@@ -19,6 +19,7 @@
    background: url('home-bg.png') center no-repeat;
    background-size: cover;
    background-attachment: fixed;
+   overflow-x: hidden;
  }
 
  .down-btn:hover {
