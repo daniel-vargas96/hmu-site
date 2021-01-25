@@ -1,6 +1,6 @@
 
 .footer {
-  background-color: rgba(251, 255, 8, 0.605);
+  background-color: rgb(219, 223, 3);
 }
 
 #button-addon1 {
@@ -19,4 +19,9 @@ i {
 
 .form-control.shadow-0:focus {
   box-shadow: none;
+}
+
+.footer-links {
+  color: black !important;
+  padding: 1rem;
 }

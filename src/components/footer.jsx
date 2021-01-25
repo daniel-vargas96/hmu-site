@@ -7,13 +7,16 @@ import { IconContext } from 'react-icons';
 
 export default function Footer() {
 
+  const footerLinks = {
+    color: "black"
+  }
 
   return (
     <>
-      <footer className="bg-white footer">
-        <div className="container py-2">
-          <div className="row py-1">
-            <div className="col-lg-4 col-md-6 mb-lg-0">
+      <footer className="footer">
+        <div className="container">
+          <div className="row">
+            <div className="col-lg-4 col-md-6 mb-lg-0 d-flex align-items-center text-center">
               <img src='hmu-logo.png' alt="" width="380" className="mb-3"></img>
               <ul className="list-inline mt-4">
                 <li className="list-inline-item"><a href="#" target="_blank" title="twitter"><i className="fa fa-twitter"></i></a></li>
@@ -23,12 +26,15 @@ export default function Footer() {
                 <li className="list-inline-item"><a href="#" target="_blank" title="vimeo"><i className="fa fa-vimeo"></i></a></li>
               </ul>
             </div>
-            <div className="col-lg-2 col-md-6 mt-4 mb-2 mb-lg-0 col-lg-offset-6">
-              <h6 className="text-uppercase font-weight-bold mb-4">Company</h6>
+            <div className="col-lg-6 col-md-6 mb-lg-0  d-flex align-items-center text-center">
+              <h1>HELICOPTER MAINTENANCE UNLIMITED</h1>
+            </div>
+            <div className="col-lg-2 col-md-6 mt-4 mb-2 mb-lg-0 pt-4">
+              {/* <h6 className="text-uppercase font-weight-bold mb-4">HMU</h6> */}
               <ul className="list-unstyled mb-0">
                 {SidebarData.map((item, index) => {
                   return (
-                    <li key={index} className="mb-2">
+                    <li key={index} className={item.class}>
                       <Link to={item.path}>
                         {item.icon}
                         <span>{item.title}</span>
@@ -42,9 +48,9 @@ export default function Footer() {
         </div>
 
         {/* <!-- Copyrights --> */}
-        <div className="bg-light py-4">
+        <div className="py-4 footer">
           <div className="container text-center">
-            <p className="text-muted mb-0 py-2">© 2019 Bootstrapious All rights reserved.</p>
+            <p className="text-muted mb-0 py-2">© 2021 Helicopter Maintenance Unlimited All rights reserved.</p>
           </div>
         </div>
       </footer>
