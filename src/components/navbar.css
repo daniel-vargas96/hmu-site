@@ -1,4 +1,4 @@
-
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
 
 .nav-bar {
   background-color: rgba(251, 255, 8, 0.605);
@@ -15,7 +15,6 @@
 }
 
 .menu-bars {
-  margin-right: 2rem;
   font-size: 2rem;
   background: none;
 }
@@ -93,8 +92,8 @@ span {
 
 .logo {
   position: relative;
-  height: 70px;
-  width: 150px;
+  height: 100px;
+  width: 200px;
 }
 
 .header {
@@ -102,10 +101,14 @@ span {
 }
 
 .hmu-title {
-  position: absolute;
+  display: flex;
+  justify-content: center;
+  align-items: center;
   color: black;
   left: 30%;
   padding: 1rem;
+  font-family: 'Bebas Neue', cursive;
+  font-size: 6rem;
 }
 
 .hidden {
