@@ -1,6 +1,7 @@
 
 .footer {
-  background-color: rgb(219, 223, 3);
+  background-color: rgb(207, 211, 22);
+  font-weight: 600;
 }
 
 #button-addon1 {
@@ -22,6 +23,21 @@ i {
 }
 
 .footer-links {
-  color: black !important;
-  padding: 1rem;
+  padding: 5px 10px;
+}
+
+.footer-links > a {
+  color: black;
+  padding: 5px 10px;
+  padding-top: 2rem;
+}
+
+.footer-links:hover {
+  border-radius: 4px;
+  transition: ease-in 200ms;
+}
+
+.footer-links > a:hover {
+  color: #666666 !important;
+  text-decoration: none;
 }
