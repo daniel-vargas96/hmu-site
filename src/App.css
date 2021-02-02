@@ -9,18 +9,26 @@
   font-family: 'Lato', 'sans-serif';
  }
 
- .home, .sales, .courses {
+ body {
+   background-color: #070429;
+   background-size: cover;
+   background-attachment: fixed;
+   overflow-x: hidden;
+ }
+
+ .home, .sales, .courses, .services {
     justify-content: center;
     font-size: 3rem;
     color: white;
  }
 
- body {
+ .home {
    background: url('home-bg.png') center no-repeat;
    background-size: cover;
    background-attachment: fixed;
    overflow-x: hidden;
  }
+
 
  .down-btn:hover {
   color: rgb(199, 186, 0);
@@ -31,6 +39,10 @@
   width: 50px;
   height: 100px;
   z-index: 9999;
+}
+
+.testimonial-text {
+  font-size: medium;
 }
 
 .container-fluid {
@@ -60,7 +72,7 @@
   z-index: 99 !important;
 }
 
-.content > h2, p {
+.content > h2 {
   font-weight: 700;
 }
 
@@ -68,6 +80,95 @@
   position: relative;
   top: 10rem;
 }
+
+.service-boxes {
+  position: relative;
+  height: 500px;
+}
+
+.overhaul {
+  background: url('r44_engine.jpg') center no-repeat;
+  background-size: 100vh;
+  background-position: center;
+  z-index: 1;
+  overflow: hidden;
+  transition: all .3s ease-in;
+}
+
+.fumigation {
+  background: url('r66_engine.jpg') center no-repeat;
+  background-size: 120vh;
+  z-index: 1;
+  overflow: hidden;
+  transition: all .3s ease-in;
+}
+
+.inspection {
+  background: url('mechanic.jpg') center no-repeat;
+  background-size: 100vh;
+  z-index: 1;
+  overflow: hidden;
+  transition: all .3s ease-in;
+}
+
+.overhaul:hover, .fumigation:hover, .inspection:hover {
+  background-size: 250%;
+  background-position: center;
+}
+
+.fumigation:hover {
+  background-size: 300%;
+}
+
+.overhaul::after, .fumigation::after, .inspection::after {
+  position: absolute;
+  content: '';
+  display: block;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background: rgba(0, 0, 0, 0.462);
+  z-index: -1;
+}
+
+
+
+.overlay-testimonial {
+  position: absolute;
+  background-color: rgba(0, 0, 0, 0.612);
+  top: 0;
+  bottom: 0;
+  right: 0;
+  left: 0;
+  opacity: 0;
+}
+
+.overlay-testimonial:hover {
+  opacity: 1;
+  cursor: pointer;
+  transition: .5s ease;
+}
+
+
+.learn-more {
+  position: absolute;
+  bottom: 5%;
+  left: 35%;
+  font-size: 20px;
+  font-weight: lighter;
+}
+
+.learn-more:hover {
+  color: rgb(199, 186, 0);
+  cursor: pointer;
+}
+
+.services > h1 {
+  font-size: 60px;
+}
+
+
 
 /* #testimonials {
   background-color: white;
