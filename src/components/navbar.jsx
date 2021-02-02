@@ -20,7 +20,9 @@ export default function Navbar() {
       <div className="nav-bar sticky-top">
         <div className='col-md-11 d-flex pl-5'>
           <img src='hmu-logo.png' className='logo' alt="logo"></img>
-          <h1 className='hmu-title'>Helicopter Maintenance Unlimited</h1>
+          <div className='d-flex justify-content-center'>
+            <h1 className='hmu-title'>Helicopter Maintenance Unlimited</h1>
+          </div>
         </div>
         <div className='col-1'>
           <Link to="#" className="menu-bars" style={{ color: 'black' }}>

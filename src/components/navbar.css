@@ -1,7 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
 
 .nav-bar {
-  background-color: rgba(251, 255, 8, 0.605);
+  background-color: rgb(199, 186, 0);
   height: 120px;
   display: flex;
   justify-content: flex-end;
@@ -105,7 +105,7 @@ span {
   justify-content: center;
   align-items: center;
   color: black;
-  left: 30%;
+
   padding: 1rem;
   font-family: 'Bebas Neue', cursive;
   font-size: 6rem;
