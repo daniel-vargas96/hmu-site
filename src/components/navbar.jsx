@@ -17,7 +17,7 @@ export default function Navbar() {
 
   return (
     <>
-      <div className="nav-bar">
+      <div className="nav-bar sticky-top">
         <div className='col-md-11 d-flex pl-5'>
           <img src='hmu-logo.png' className='logo' alt="logo"></img>
           <h1 className='hmu-title'>Helicopter Maintenance Unlimited</h1>
