@@ -41,7 +41,7 @@ export default function Footer() {
                 <li className="list-inline-item"><a href="#" target="_blank" title="vimeo"><i className="fa fa-vimeo"></i></a></li>
               </ul>
             </div>
-            <div className="col-lg-9 col-md-6 mb-lg-0  d-flex align-items-center text-center">
+            <div className="footer-title col-lg-9 col-md-6 mb-lg-0  d-flex align-items-center text-center">
               <h1>HELICOPTER MAINTENANCE UNLIMITED</h1>
             </div>
           </div>

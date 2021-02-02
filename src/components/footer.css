@@ -1,20 +1,12 @@
 
 .footer {
-  background-color: rgb(207, 211, 22);
+  background-color: rgb(199, 186, 0);
   font-weight: 600;
-}
-
-#button-addon1 {
-  color: #ffc371;
-}
-
-i {
-  color: #ffc371;
 }
 
 .form-control::placeholder {
   font-size: 0.95rem;
-  color: #aaa;
+  color: rgb(0, 0, 0);
   font-style: italic;
 }
 
@@ -40,4 +32,10 @@ i {
 .footer-links > a:hover {
   color: #666666 !important;
   text-decoration: none;
+}
+
+.footer-title > h1 {
+    font-family: 'Bebas Neue', cursive;
+  font-size: 60px;
+  color: black;
 }

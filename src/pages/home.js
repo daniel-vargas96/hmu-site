@@ -23,46 +23,33 @@ export default function Home() {
             </p>
           </div>
         </div>
-        <div className='container-fluid align-items-center' id='testimonials'>
-          <div className='row col-lg-offset-1'>
-            <div className='col-1 d-flex justify-content-center align-items-center'>
-              <FaIcons.FaAward className='testimonial-icons d-flex align-items-center' />
-            </div>
-            <div className='content d-flex flex-column col-lg-10 pl-5'>
+        <div className='container-fluid align-items-center ' id='testimonials'>
+          <div className='row d-flex justify-content-center'>
+            <div className='content d-flex flex-column col-lg-3 justify-content-center align-items-center text-center'>
+              <FaIcons.FaAward className='testimonial-icons' />
               <h2>Top Performance</h2>
               <p className='testimonial-text'>After your service is completed, your aircraft is ready to be safely operated.
               Our priority is to keep your downtime to a minimum with timely responses and 24-hour accessibility.
              Our repairs of Airbus, Sikorsky, Agusta, MD, and Bell helicopters focus on safety and quality.</p>
             </div>
-          </div>
-          <div className='content row col-lg-offset-1'>
-            <div className='col-1 d-flex justify-content-center align-items-center'>
+            <div className='content d-flex flex-column col-lg-3 justify-content-center align-items-center text-center'>
               <FaIcons.FaTools className='testimonial-icons d-flex align-items-center' />
-            </div>
-            <div className='content d-flex flex-column col-lg-10 pl-5'>
               <h2>Trained Team</h2>
               <p className='testimonial-text'>
-              You want your helicopter in the hands of a company you can trust. Our team is factory trained and certified to
-              deliver you with quality and versatility. Our constant communication and customer support exceeds your
+                You want your helicopter in the hands of a company you can trust. Our team is factory trained and certified to
+                deliver you with quality and versatility. Our constant communication and customer support exceeds your
               expectations and completes the repair quickly.</p>
             </div>
-          </div>
-          <div className='content row col-lg-offset-1'>
-            <div className='col-1 d-flex justify-content-center align-items-center'>
+            <div className='content d-flex flex-column col-lg-3 justify-content-center align-items-center text-center'>
               <FaIcons.FaTools className='testimonial-icons d-flex align-items-center' />
-            </div>
-            <div className='content d-flex flex-column col-lg-10 pl-5'>
               <h2>Quality Prices</h2>
               <p className='testimonial-text'>
-              You want your helicopter in the hands of a company you can trust. Our team is factory trained and certified to
-              deliver you with quality and versatility. Our constant communication and customer support exceeds your
-              expectations and completes the repair quickly.</p>
+                At HMU, you receive the best service at the most cost-effective prices. You can trust our technicians to work on your R44 Helicopter,
+                addressing all issues quickly at a price that meets your budget. Get in touch with us to inquire about your helicopter maintenance needs.</p>
             </div>
           </div>
-
         </div>
       </div>
-
     </>
   );
 }
