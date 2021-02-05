@@ -4,6 +4,7 @@ import { withRouter } from 'react-router-dom';
 import { Link, animateScroll as scroll } from "react-scroll";
 
 
+
 export default function Home() {
 
   const btnColor = {
@@ -46,6 +47,32 @@ export default function Home() {
               <p className='testimonial-text'>
                 At HMU, you receive the best service at the most cost-effective prices. You can trust our technicians to work on your R44 Helicopter,
                 addressing all issues quickly at a price that meets your budget. Get in touch with us to inquire about your helicopter maintenance needs.</p>
+            </div>
+          </div>
+        </div>
+        <div className='container'>
+          <div className='row justify-content-center text-center align-items-center'>
+            <div className='content-card col-lg-5 sales-card'>
+              <div className='overlay-testimonial d-flex justify-content-center align-items-center'>
+                <h1 className='content-cards-title zindex-tooltip'><a className='card-links' href='/sales'>Sales</a></h1>
+              </div>
+            </div>
+            <div className='content-card col-lg-5 courses-card'>
+              <div className='overlay-testimonial d-flex justify-content-center align-items-center'>
+                <h1 className='content-cards-title'>Courses</h1>
+              </div>
+            </div>
+          </div>
+          <div className='row justify-content-center text-center'>
+            <div className='content-card col-lg-5 services-card'>
+              <div className='overlay-testimonial d-flex justify-content-center align-items-center'>
+                <h1 className='content-cards-title'>Services</h1>
+              </div>
+            </div>
+            <div className='content-card col-lg-5 photos-videos-card'>
+              <div className='overlay-testimonial d-flex justify-content-center align-items-center'>
+                <h1 className='content-cards-title'>Photos & Videos</h1>
+              </div>
             </div>
           </div>
         </div>

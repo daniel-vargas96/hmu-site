@@ -180,6 +180,41 @@
 }
 
 
+.content-card {
+  background-color: rgb(233, 230, 230);
+  color: #ffffff;
+  height: 50vh;
+  margin: 2rem 2rem;
+}
+
+.sales-card {
+  background: url('images/sales.jpg') center no-repeat;
+  background-size: cover;
+}
+
+.courses-card {
+  background: url('images/courses.jpg') center no-repeat;
+  background-size: cover;
+}
+
+.services-card {
+  background: url('images/services.jpg') center no-repeat;
+  background-size: cover;
+}
+
+.photos-videos-card {
+  background: url('images/r66.jpg') center no-repeat;
+  background-size: cover;
+}
+
+.card-links:hover, .card-links {
+  text-decoration: none;
+  color: white;
+}
+
+
+
+
 /* #testimonials {
   background-color: white;
   width: 100vw;
