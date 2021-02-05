@@ -164,6 +164,20 @@
   line-height: 4rem;
 }
 
+.hero {
+  background: url('images/courses-hero.jpg') center no-repeat;
+  background-size: 100%;
+  height: 60vh;
+  width: 100%;
+  margin: 4rem 0rem;
+  transition: all .3s ease-in;
+  border-radius: 10px;
+}
+
+.hero:hover {
+  background-size: 130%;
+  background-position: center;
+}
 
 
 /* #testimonials {
