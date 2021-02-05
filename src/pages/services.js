@@ -35,6 +35,19 @@ export default function Services() {
           </div>
         </div>
       </div>
+      <div className='container'>
+        <div className='row d-flex justify-content-center align-items-center'>
+          <h3 className='service-content'>
+            Our helicopter service department has highly qualified, factory trained mechanics
+            on staff who work full time to maintain our helicopters
+            in optimum flight safety condition. Within our helicopter service center,
+            we provide all levels of FAA regulated services and support to include 100 hours,
+            annual and manufacturer specified inspections.
+            Outside maintenance to individual helicopter operators is also offered.
+        </h3>
+        </div>
+      </div>
+
     </div>
   );
 }
