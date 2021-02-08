@@ -24,9 +24,9 @@ export default class App extends React.Component {
           <Navbar />
           <Switch>
             <Route path='/' exact component={Home} />
-            <Route path='/sales' component={Sales} />
-            <Route path='/courses' component={Courses} />
-            <Route path='/services' component={Services} />
+            <Route path='/sales' exact component={Sales} />
+            <Route path='/courses' exact component={Courses} />
+            <Route path='/services' exact component={Services} />
           </Switch>
           <Footer />
         </Router>
