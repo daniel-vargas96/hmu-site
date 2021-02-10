@@ -1,0 +1,100 @@
+.services {
+
+.service-boxes {
+  position: relative;
+  height: 500px;
+  border-radius: 10px;
+  .overhaul, .fumigation, .inspection {
+    border-radius: 10px;
+    box-shadow: 0 3px 6px rgba(0,0,0,0.16), 0 3px 6px rgba(0,0,0,0.23);
+    transition: all 0.3s cubic-bezier(.25,.8,.25,1);
+    &:hover {
+    box-shadow: 0 14px 28px rgba(0,0,0,0.25), 0 10px 10px rgba(0,0,0,0.22);
+  }
+  }
+  .overlay-testimonial {
+    position: absolute;
+    background-color: rgba(0, 0, 0, 0.612);
+    top: 0;
+    bottom: 0;
+    right: 0;
+    left: 0;
+    opacity: 0;
+
+    &:hover {
+      opacity: 1;
+      cursor: pointer;
+      transition: .5s ease;
+      border-radius: 10px;
+    }
+  }
+}
+
+.learn-more {
+  color: white;
+  position: absolute;
+  bottom: 5%;
+  left: 35%;
+  font-size: 20px;
+  font-weight: lighter;
+}
+
+.learn-more:hover {
+  color: rgb(199, 186, 0);
+  cursor: pointer;
+}
+
+.service-content {
+  color: black;
+  line-height: 4rem;
+}
+
+.overhaul {
+  background: url('../images/r44_engine.jpg') center no-repeat;
+  background-size: 100vh;
+  background-position: center;
+  z-index: 1;
+  overflow: hidden;
+  transition: all .3s ease-in;
+}
+
+.fumigation {
+  background: url('../images/r66_engine.jpg') center no-repeat;
+  background-size: 120vh;
+  z-index: 1;
+  overflow: hidden;
+  transition: all .3s ease-in;
+}
+
+.inspection {
+  background: url('../images/mechanic.jpg') center no-repeat;
+  background-size: 100vh;
+  z-index: 1;
+  overflow: hidden;
+  transition: all .3s ease-in;
+}
+
+.overhaul:hover, .fumigation:hover, .inspection:hover {
+  background-size: 250%;
+  background-position: center;
+}
+
+.fumigation:hover {
+  background-size: 300%;
+}
+
+.overhaul::after, .fumigation::after, .inspection::after {
+  position: absolute;
+  content: '';
+  display: block;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background: rgba(0, 0, 0, 0.462);
+  z-index: -1;
+}
+
+
+
+}

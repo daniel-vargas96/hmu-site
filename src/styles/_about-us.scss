@@ -1,0 +1,26 @@
+@import './body';
+
+.about {
+
+  .about-content {
+    color: black;
+   font-size: 16px;
+   @include flexCenter();
+   flex-direction: column;
+   padding: 3rem 5rem 5rem;
+   margin: 3rem 0rem;
+   border-radius: 10px;
+   box-shadow: 0 3px 6px rgba(0,0,0,0.16), 0 3px 6px rgba(0,0,0,0.23);
+
+   h1 {
+      text-align: center !important;
+  }
+
+  p {
+      color: black;
+      width: 90%;
+      text-align: center;
+      line-height: 3rem;
+    }
+  }
+}
