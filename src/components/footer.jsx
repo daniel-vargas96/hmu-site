@@ -1,7 +1,7 @@
 import React, { useState } from 'react';
 import { Link } from 'react-router-dom';
 import { SidebarData } from './sidebarData';
-import './footer.scss';
+import './styles/_footer.scss';
 import { IconContext } from 'react-icons';
 
 

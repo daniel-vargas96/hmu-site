@@ -1,0 +1,131 @@
+ .home {
+   background: url('../images/home-bg.png') center no-repeat;
+   background-size: cover;
+   background-attachment: fixed;
+   overflow-x: hidden;
+ }
+
+
+ .down-btn:hover {
+  color: rgb(199, 186, 0);
+ }
+
+.testimonial-icons {
+  color: rgb(0, 0, 0);
+  width: 50px;
+  height: 100px;
+  z-index: 9999;
+}
+
+.testimonial-text {
+  font-size: medium;
+  color: black;
+}
+
+#testimonials {
+  .container-fluid {
+  width: 100%;
+  height: 100%;
+  padding: 10rem 10rem;
+  color: rgb(0, 0, 0);
+  align-items: center;
+  background: rgb(6,8,38);
+  background: linear-gradient(146deg, rgba(6,8,38,1) 35%, rgba(231,231,231,1) 35%) center no-repeat;
+  margin-top: 10rem;
+}
+}
+
+.container-fluid {
+  width: 100%;
+  height: 100%;
+  padding: 10rem 10rem;
+  color: rgb(0, 0, 0);
+  align-items: center;
+  background: rgb(6,8,38);
+  background: linear-gradient(326deg, rgba(6,8,38,1) 35%, rgba(231,231,231,1) 35%) center no-repeat;
+  margin-top: 10rem;
+}
+
+.content {
+  color: black;
+  z-index: 99 !important;
+  margin: 2rem;
+  padding: 2rem;
+  border-radius: 10px;
+  background-color: white;
+  box-shadow: 0 3px 6px rgba(0,0,0,0.16), 0 3px 6px rgba(0,0,0,0.23);
+  transition: all 0.3s cubic-bezier(.25,.8,.25,1);
+  &:hover {
+    box-shadow: 0 14px 28px rgba(0,0,0,0.25), 0 10px 10px rgba(0,0,0,0.22);
+  }
+}
+
+.content > h2 {
+  font-weight: 700;
+}
+
+
+.intro-content {
+  position: relative;
+  top: 10rem;
+  margin-bottom: 30rem;
+}
+
+.content-card {
+  background-color: rgb(233, 230, 230);
+  color: #ffffff;
+  height: 50vh;
+  margin: 2rem 2rem;
+   box-shadow: 0 3px 6px rgba(0,0,0,0.16), 0 3px 6px rgba(0,0,0,0.23);
+  transition: all 0.3s cubic-bezier(.25,.8,.25,1);
+  border-radius: 10px;
+  .overlay-testimonial {
+    border-radius: 10px;
+  }
+  &:hover {
+    box-shadow: 0 14px 28px rgba(0,0,0,0.25), 0 10px 10px rgba(0,0,0,0.22);
+  }
+}
+
+.sales-card {
+  background: url('../images/sales.jpg') center no-repeat;
+  background-size: cover;
+}
+
+.courses-card {
+  background: url('../images/courses.jpg') center no-repeat;
+  background-size: cover;
+}
+
+.services-card {
+  background: url('../images/services.jpg') center no-repeat;
+  background-size: cover;
+}
+
+.photos-videos-card {
+  background: url('../images/r66.jpg') center no-repeat;
+  background-size: cover;
+}
+
+.card-links:hover, .card-links {
+  text-decoration: none;
+  color: white;
+}
+
+ .overlay-testimonial {
+    position: absolute;
+    background-color: rgba(0, 0, 0, 0.612);
+    top: 0;
+    bottom: 0;
+    right: 0;
+    left: 0;
+    opacity: 0;
+
+    &:hover {
+      opacity: 1;
+      cursor: pointer;
+      transition: .5s ease;
+      border-radius: 10px;
+    }
+  }
+

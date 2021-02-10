@@ -1,0 +1,10 @@
+ .home {
+    justify-content: center;
+    font-size: 3rem;
+    width: 100vw;
+    color: white;
+ }
+
+ .about, .sales {
+   @include flexCenter();
+ }
