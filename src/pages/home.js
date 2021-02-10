@@ -1,7 +1,7 @@
 import React from 'react';
 import * as FaIcons from "react-icons/fa";
-import { withRouter } from 'react-router-dom';
 import { Link, animateScroll as scroll } from "react-scroll";
+import { Link as Links } from 'react-router-dom';
 
 
 
@@ -20,7 +20,7 @@ export default function Home() {
             <p className="d-flex lead text-center">Our highly skilled and trained technicians rely on quality and precision to deliver you with exceptional service that keeps you safe. We assure you that our FAA certified technicians complete thorough training before any maintenance.</p>
             <p className='d-flex lead text-center'>Our goal is to keep your downtime to a minimum, delivering quality maintenance services with fast turn-around times. You rely on your helicopters for transport. Our diverse clientele and experience providing service at our FAA repair station leaves you with complete satisfaction.</p>
             <p className='d-flex justify-content-center'>
-              <Link activeClass="active" spy={true} smooth={true} offset={500} duration={1000} to='testimonials'><FaIcons.FaChevronDown className='down-btn' /></Link>
+              <Link activeClass="active" spy={true} smooth={true} offset={-100} duration={1000} to='testimonials'><FaIcons.FaChevronDown className='down-btn' /></Link>
             </p>
           </div>
         </div>
@@ -50,33 +50,43 @@ export default function Home() {
             </div>
           </div>
         </div>
-        <div className='container'>
+        <div className='container-fluid'>
           <div className='row justify-content-center text-center align-items-center'>
             <div className='content-card col-lg-5 sales-card'>
-              <div className='overlay-testimonial d-flex justify-content-center align-items-center'>
-                <h1 className='content-cards-title zindex-tooltip'><a className='card-links' href='/sales'>Sales</a></h1>
-              </div>
+              <Links className='card-links' to='/sales'>
+                <div className='overlay-testimonial d-flex justify-content-center align-items-center'>
+                  <h1 className='content-cards-title zindex-tooltip'>Sales</h1>
+                </div>
+              </Links>
             </div>
             <div className='content-card col-lg-5 courses-card'>
-              <div className='overlay-testimonial d-flex justify-content-center align-items-center'>
-                <h1 className='content-cards-title'>Courses</h1>
-              </div>
+              <Links className='card-links' to='/courses'>
+                <div className='overlay-testimonial d-flex justify-content-center align-items-center'>
+                  <h1 className='content-cards-title'>Courses</h1>
+                </div>
+              </Links>
             </div>
           </div>
           <div className='row justify-content-center text-center'>
             <div className='content-card col-lg-5 services-card'>
-              <div className='overlay-testimonial d-flex justify-content-center align-items-center'>
-                <h1 className='content-cards-title'>Services</h1>
-              </div>
+              <Links className='card-links' to='/services'>
+                <div className='overlay-testimonial d-flex justify-content-center align-items-center'>
+                  <h1 className='content-cards-title'>Services</h1>
+                </div>
+              </Links>
             </div>
             <div className='content-card col-lg-5 photos-videos-card'>
-              <div className='overlay-testimonial d-flex justify-content-center align-items-center'>
-                <h1 className='content-cards-title'>Photos & Videos</h1>
-              </div>
+              <Links className='card-links' to='/photos-videos'>
+                <div className='overlay-testimonial d-flex justify-content-center align-items-center'>
+                  <h1 className='content-cards-title'>Photos & Videos</h1>
+                </div>
+              </Links>
+
             </div>
           </div>
         </div>
       </div>
+
     </>
   );
 }
