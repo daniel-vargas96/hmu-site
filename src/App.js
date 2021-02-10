@@ -7,6 +7,7 @@ import Home from './pages/home';
 import Sales from './pages/sales';
 import Courses from './pages/courses';
 import Services from './pages/services';
+import About from './pages/about-us';
 
 
 export default class App extends React.Component {
@@ -24,9 +25,10 @@ export default class App extends React.Component {
           <Navbar />
           <Switch>
             <Route path='/' exact component={Home} />
-            <Route path='/sales' exact component={Sales} />
-            <Route path='/courses' exact component={Courses} />
-            <Route path='/services' exact component={Services} />
+            <Route path='/sales' component={Sales} />
+            <Route path='/courses' component={Courses} />
+            <Route path='/services' component={Services} />
+            <Route path='/about-us' component={About}/>
           </Switch>
           <Footer />
         </Router>
