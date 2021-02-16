@@ -2,7 +2,7 @@ import React from 'react';
 import * as FaIcons from "react-icons/fa";
 import * as FiIcons from "react-icons/fi";
 import { withRouter } from 'react-router-dom';
-import { Link, animateScroll as scroll } from "react-scroll";
+import { Link } from 'react-router-dom';
 
 export default function Services() {
 
@@ -14,7 +14,7 @@ export default function Services() {
           <h2>Overhaul</h2>
           <div className='overlay-testimonial'>
             <div className='learn-more'>
-              <Link>Learn More<FiIcons.FiArrowRightCircle className='ml-3' /></Link>
+              <Link to='/overhaul'>Learn More<FiIcons.FiArrowRightCircle className='ml-3' /></Link>
             </div>
           </div>
         </div>
@@ -22,7 +22,7 @@ export default function Services() {
           <h2>Fumigation</h2>
           <div className='overlay-testimonial'>
             <div className='learn-more'>
-              <Link>Learn More<FiIcons.FiArrowRightCircle className='ml-3' /></Link>
+              <Link to='/fumigation'>Learn More<FiIcons.FiArrowRightCircle className='ml-3' /></Link>
             </div>
           </div>
         </div>
@@ -30,21 +30,21 @@ export default function Services() {
           <h2>Pre-Purchase Inspection</h2>
           <div className='overlay-testimonial'>
             <div className='learn-more'>
-              <Link>Learn More<FiIcons.FiArrowRightCircle className='ml-3' /></Link>
+              <Link to='/inspection'>Learn More<FiIcons.FiArrowRightCircle className='ml-3' /></Link>
             </div>
           </div>
         </div>
       </div>
       <div className='container'>
         <div className='row d-flex justify-content-center align-items-center'>
-          <h3 className='service-content'>
+          <h4 className='service-content'>
             Our helicopter service department has highly qualified, factory trained mechanics
             on staff who work full time to maintain our helicopters
             in optimum flight safety condition. Within our helicopter service center,
             we provide all levels of FAA regulated services and support to include 100 hours,
             annual and manufacturer specified inspections.
             Outside maintenance to individual helicopter operators is also offered.
-        </h3>
+        </h4>
         </div>
       </div>
 
