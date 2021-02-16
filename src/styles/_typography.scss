@@ -1,4 +1,4 @@
-.services, .courses, .about {
+.services, .courses, .about, .overhaul-container, .pre-purchase-container, .fumigation-container {
   h1 {
     font-size: 60px;
     color: black;
@@ -8,5 +8,11 @@
 .services {
   h2, a {
     color: white;
+  }
+
+  a:hover {
+    text-decoration: none;
+    color: rgb(199, 186, 0);
+    cursor: pointer;
   }
 }

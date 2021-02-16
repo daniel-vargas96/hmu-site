@@ -8,6 +8,9 @@ import Sales from './pages/sales';
 import Courses from './pages/courses';
 import Services from './pages/services';
 import About from './pages/about-us';
+import Overhaul from './pages/overhaul';
+import Fumigation from './pages/fumigation';
+import Inspection from './pages/pre-purchase-inspection';
 
 
 export default class App extends React.Component {
@@ -29,6 +32,9 @@ export default class App extends React.Component {
             <Route path='/courses' component={Courses} />
             <Route path='/services' component={Services} />
             <Route path='/about-us' component={About}/>
+            <Route path='/overhaul' component={Overhaul} />
+            <Route path='/fumigation' component={Fumigation} />
+            <Route path='/inspection' component={Inspection} />
           </Switch>
           <Footer />
         </Router>
