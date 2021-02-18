@@ -11,6 +11,7 @@ import About from './pages/about-us';
 import Overhaul from './pages/overhaul';
 import Fumigation from './pages/fumigation';
 import Inspection from './pages/pre-purchase-inspection';
+import Contact from './pages/contact';
 
 
 export default class App extends React.Component {
@@ -35,6 +36,7 @@ export default class App extends React.Component {
             <Route path='/overhaul' component={Overhaul} />
             <Route path='/fumigation' component={Fumigation} />
             <Route path='/inspection' component={Inspection} />
+            <Route path='/contact' component={Contact} />
           </Switch>
           <Footer />
         </Router>
