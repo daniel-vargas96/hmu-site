@@ -28,7 +28,7 @@
     .info-text {
       position: relative;
       line-height: 3rem;
-      font-size: 16px;
+      font-size: 18px;
       padding: 0rem 2rem;
     }
     .inspection-title {
@@ -46,17 +46,36 @@
 
   .inspect-body {
     background-color: rgb(6,8,38);
+    height: 600px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
 
-  .inspect-text {
+  .inspect-text, h2 {
     color: white;
     text-align: left;
-    padding: 1.5rem;
+    padding: 1rem;
   }
 
-  .inspect-bg {
+  .inspect-text {
+    font-size: 18px;
+  }
+
+  .inspect-bg, .inspect-bg1 {
     background: url('../images/inspection.JPG') center no-repeat;
     background-size: cover;
-    height: 400px;
+    height: 500px;
+    width: 600px;
+    position: relative;
+    left: -80px;
+    }
+
+    .inspect-bg1 {
+      background: url('../images/inspection2.JPG') center no-repeat;
+      background-size: cover;
+      position: relative;
+      left: 20px;
     }
   }
 
