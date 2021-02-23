@@ -36,11 +36,28 @@
       top: 7rem;
       left: 3rem;
       width: 120%;
-      z-index: 9999;
+      z-index: 99;
       padding: 1rem 3rem;
       background-color: rgb(6,8,38);
       color: white;
       text-align: left;
     }
   }
+
+  .inspect-body {
+    background-color: rgb(6,8,38);
+
+  .inspect-text {
+    color: white;
+    text-align: left;
+    padding: 1.5rem;
+  }
+
+  .inspect-bg {
+    background: url('../images/inspection.JPG') center no-repeat;
+    background-size: cover;
+    height: 400px;
+    }
+  }
+
 }
